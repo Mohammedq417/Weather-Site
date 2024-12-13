@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const weatherContainer = document.querySelector(".weather-container");
 
   const apiKey = "ec6f4a6e188e40549d7115330241312";
-  const baseUrl = "http://api.weatherapi.com/v1";
+  const baseUrl = "https://api.weatherapi.com/v1";
 
   async function fetchWeather(city) {
     try {
